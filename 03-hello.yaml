@@ -1,0 +1,6 @@
+- name: Hello Playbook
+  hosts: web
+  tasks:
+  - name: Greeting the People
+    ansible.builtin.debug:
+      msg: "Hello Divyanshi and Divyaka"
